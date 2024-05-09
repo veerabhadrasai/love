@@ -56,7 +56,6 @@ const LoveLetter = () => {
         @sai
         
       </div>
-      <audio ref={audioRef} src={audioFile} onError={(e) => console.error('Audio error:', e.message)} />
     </div>
     </div>
   );
